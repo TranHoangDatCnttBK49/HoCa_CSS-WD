@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hồ Cá CSS3</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./assets/css/tankcss.css">
+	<script src="./assets/javascript/main.js"></script>
+	<style>
+		/* Trần Hoàng Phát */
+		body {
+	  
+		  background-image: url('assets/img/backgroundcoral1.jpg');
+		  height: 100%; 
+		  background-attachment: fixed;
+		  background-size: 100% 100%;
+		  
+		
+		  background-repeat: no-repeat;
+		 
+		}
+		/* Trần Hoàng Phát */
+		</style>
+	
+</head>
+<body>
+<div  class="bg">
+	<!-- Đạt -->
+	<div id="shark"> <img src="./assets/img/shark.gif"; width ="320"; height="150"></div>
+    <div id="crab"> <img src="./assets/img/crab.gif"; width ="60"; height="60"></div>
+    <div id="fish1"> <img src="./assets/img/cáxanh.gif"; width ="190"; height="200"></div>
+    <div id="squid"> <img src="./assets/img/squid.gif"; width ="130"; height="160"></div>
+    <div id="fish2"> <img src="./assets/img/clownfish.gif"; width ="100"; height="100"></div>
+</div> <!-- Đạt -->
+
+<!-- Trần Hoàng Phát -->
+	<button type="button" onclick="myFunction1()">Background 1</button>
+
+    <button type="button" onclick="myFunction2()">Background 2</button> 
+<!-- Trần Hoàng Phát -->
+
+ <!-- Đức Anh -->
+<audio id="myAudio1">
+<source src="./assets/audio/sea-waves-7131.mp3" type ="audio/mpeg">
+</audio>
+<button onclick="playAudio1()" type="button">Play Audio 1</button>
+<button onclick="pauseAudio1()" type="button">Pause Audio 1</button> 
+
+<script>
+var x = document.getElementById("myAudio1"); 
+
+function playAudio1() { 
+  x.play(); 
+} 
+
+function pauseAudio1() { 
+  x.pause(); 
+} 
+</script>
+<audio id="myAudio2">
+	<source src="./assets/audio/underwater-ambiencewav-14428.mp3" type ="audio/mpeg">
+	</audio>
+	<button onclick="playAudio2()" type="button">Play Audio 2</button>
+	<button onclick="pauseAudio2()" type="button">Pause Audio 2</button> 
+	
+	<script>
+	var y = document.getElementById("myAudio2"); 
+	
+	function playAudio2() { 
+	  y.play(); 
+	} 
+	
+	function pauseAudio2() { 
+	  y.pause(); 
+	} 
+	</script>
+	<!-- Đức Anh -->
+</body>
+</html>
+
