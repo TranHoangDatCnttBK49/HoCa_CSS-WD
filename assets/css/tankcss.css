@@ -142,7 +142,7 @@
 	-ms-animation-timing-function:linear;
 	-ms-animation-iteration-count: infinite;
 	-ms-animation-play-state: running;
-    -moz-animation-direction: alternate;
+    -ms-animation-direction: alternate;
 	-ms-transform:scaleX(1);
 	
 }
