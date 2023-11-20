@@ -280,7 +280,7 @@
 	-ms-animation-timing-function:linear;
 	-ms-animation-iteration-count: infinite;
 	-ms-animation-play-state: running;	
-    -ms-transform:scaleX(1);
+        -ms-transform:scaleX(1);
 }
 @-webkit-keyframes fish2
 {
