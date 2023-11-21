@@ -32,7 +32,7 @@
 	-ms-animation-play-state: running;
 	-ms-transform:scaleX(-1);
 }
-@keyframes shark
+@-webkit-keyframes shark
 {
 	0%   {left: 100px;top:200px;-webkit-transform: scaleX(-1);}
 	10%   {left:400px;top:200px;-webkit-transform: scaleX(-1);}
@@ -43,7 +43,8 @@
 	80%  {left:300px;top:100px;-webkit-transform:scaleX(1);}
 	90%  {left:150px;top:150px;-webkit-transform:scaleX(1);}
 	100% {left:100px;top:200px;-webkit-transform:scaleX(-1);}
-
+}
+@-moz-keyframes shark {
 	0%   {left: 100px;top:200px;-moz-transform: scaleX(-1);}
 	10%   {left:400px;top:200px;-moz-transform: scaleX(-1);}
     30%  {left:700px;top:200px;-moz-transform: scaleX(-1);}
@@ -53,7 +54,8 @@
 	80%  {left:300px;top:100px;-moz-transform:scaleX(1);}
 	90%  {left:150px;top:150px;-moz-transform:scaleX(1);}
 	100% {left:100px;top:200px;-moz-transform:scaleX(-1);}
-
+}
+@-ms-keyframes shark {
 	0%   {left: 100px;top:200px;-ms-transform: scaleX(-1);}
 	10%   {left:400px;top:200px;-ms-transform: scaleX(-1);}
     30%  {left:700px;top:200px;-ms-transform: scaleX(-1);}
@@ -63,7 +65,8 @@
 	80%  {left:300px;top:100px;-ms-transform:scaleX(1);}
 	90%  {left:150px;top:150px;-ms-transform:scaleX(1);}
 	100% {left:100px;top:200px;-ms-transform:scaleX(-1);}
-
+}
+@-o-keyframes shark {
 	0%   {left: 100px;top:200px;-o-transform: scaleX(-1);}
 	10%   {left:400px;top:200px;-o-transform: scaleX(-1);}
     30%  {left:700px;top:200px;-o-transform: scaleX(-1);}
@@ -94,7 +97,34 @@
 	
 }
 
-@keyframes crab{
+@-webkit-keyframes crab{
+    0%{ left: 0px;right: 0px;}
+    20%{right:250px;left: 200px;}
+    40%{right:500px;left: 300px;}
+    60%{right:1000px; left: 400px;;}
+    80%{right:600px;left: 450px;}
+    90%{right:300px;left: 300px;}
+    100%{left: 0px;right:0px;}
+}
+@-o-keyframes crab{
+    0%{ left: 0px;right: 0px;}
+    20%{right:250px;left: 200px;}
+    40%{right:500px;left: 300px;}
+    60%{right:1000px; left: 400px;;}
+    80%{right:600px;left: 450px;}
+    90%{right:300px;left: 300px;}
+    100%{left: 0px;right:0px;}
+}
+@-moz-keyframes crab{
+    0%{ left: 0px;right: 0px;}
+    20%{right:250px;left: 200px;}
+    40%{right:500px;left: 300px;}
+    60%{right:1000px; left: 400px;;}
+    80%{right:600px;left: 450px;}
+    90%{right:300px;left: 300px;}
+    100%{left: 0px;right:0px;}
+}
+@-ms-keyframes crab{
     0%{ left: 0px;right: 0px;}
     20%{right:250px;left: 200px;}
     40%{right:500px;left: 300px;}
@@ -146,28 +176,31 @@
 	-ms-transform:scaleX(1);
 	
 }
-@keyframes squid{
+@-webkit-keyframes squid{
     0%{left :1000px;top: 420px;-webkit-transform: rotate(0deg);}
     25%{left:800px;top: 300px;-webkit-transform: rotate(0deg);}
     25%{left:700px;top: 400px;-webkit-transform: rotate(0deg);}
 	50%{left:700px;top: 290px;-webkit-transform: rotate(0deg);}
     75%{left:900px;top: 300px;-webkit-transform: rotate(0deg);}
     100%{left:1000px;top:420px;-webkit-transform: rotate(0deg);}
-
+}
+@-o-keyframes squid{
 	0%{left :1000px;top: 420px;-o-transform: rotate(0deg);}
     25%{left:800px;top: 300px;-o-transform: rotate(0deg);}
     25%{left:700px;top: 400px;-o-transform: rotate(0deg);}
 	50%{left:700px;top: 290px;-o-transform: rotate(0deg);}
     75%{left:900px;top: 300px;-o-transform: rotate(0deg);}
     100%{left:1000px;top:420px;-o-transform: rotate(0deg);}
-
+}
+@-moz-keyframes squid{
 	0%{left :1000px;top: 420px;-moz-transform: rotate(0deg);}
     25%{left:800px;top: 300px;-moz-transform: rotate(0deg);}
     25%{left:700px;top: 400px;-moz-transform: rotate(0deg);}
 	50%{left:700px;top: 290px;-moz-transform: rotate(0deg);}
     75%{left:900px;top: 300px;-moz-transform: rotate(0deg);}
     100%{left:1000px;top:420px;-moz-transform: rotate(0deg);}
-
+}
+@-ms-keyframes squid{
 	0%{left :1000px;top: 420px;-ms-transform: rotate(0deg);}
     25%{left:800px;top: 300px;-ms-transform: rotate(0deg);}
     25%{left:700px;top: 400px;-ms-transform: rotate(0deg);}
@@ -215,7 +248,8 @@
     80%{left :500px;top :100px;-webkit-transform: scaleX(-1);}
     90%{left :200px;top :100px;-webkit-transform: scaleX(-1);}
 	100%{left :100px;top :100px;-webkit-transform: scaleX(1);}
-
+}
+@-o-keyframes fish1 {
 	0%{left:100px; top:100px;-o-transform: scaleX(1);}
 	25%{left: 300px;top: 0px;-o-transform: scaleX(1);}
     50%{left: 1000px;top: 100px;-o-transform: scaleX(1);}
@@ -224,7 +258,8 @@
     80%{left :500px;top :100px;-o-transform: scaleX(-1);}
     90%{left :200px;top :100px;-o-transform: scaleX(-1);}
 	100%{left :100px;top :100px;-o-transform: scaleX(1);}
-
+}
+@-ms-keyframes fish1{
 	0%{left:100px; top:100px;-ms-transform: scaleX(1)}
 	25%{left: 300px;top: 0px;-ms-transform: scaleX(1);}
     50%{left: 1000px;top: 100px;-ms-transform: scaleX(1);}
@@ -232,8 +267,9 @@
     75%{left : 600px;top :100px;-ms-transform: scaleX(-1);}
     80%{left :500px;top :100px;-ms-transform: scaleX(-1);}
     90%{left :200px;top :100px;-ms-transform: scaleX(-1);}
-	100%{left :100px;top :100px;-ms-transform: scaleX(1);}
-
+100%{left :100px;top :100px;-ms-transform: scaleX(1);}
+}
+@-moz-keyframes fish1 {
 	0%{left:100px; top:100px;-moz-transform: scaleX(1);}
 	25%{left: 300px;top: 0px;-moz-transform: scaleX(1);}
     50%{left: 1000px;top: 100px;-moz-transform: scaleX(1);}
@@ -294,7 +330,8 @@
     90%{left : 850px;top :275px;-webkit-transform: scaleX(-1);}
     99%{left:999px;top:299px;-webkit-transform:scaleX(-1);}
     100%{left :1000px;top: 300px;-webkit-transform: scaleX(1);}
-
+}
+@-o-keyframes fish2 {
     0%{left:1000px; top:300px;-o-transform: scaleX(1);}
     20%{left: 500px;top: 300px;-o-transform: scaleX(1);}
     40%{left: 200px;top: 450px;-o-transform: scaleX(1);}
@@ -305,7 +342,8 @@
     90%{left : 850px;top :275px;-o-transform: scaleX(-1);}
     99%{left:999px;top:299px;-o-transform:scaleX(-1);}
     100%{left :1000px;top: 300px;-o-transform: scaleX(1);}
-
+}
+@-moz-keyframes fish1 {
     0%{left:1000px; top:300px;-moz-transform: scaleX(1);}
     20%{left: 500px;top: 300px;-moz-transform: scaleX(1);}
     40%{left: 200px;top: 450px;-moz-transform: scaleX(1);}
@@ -316,7 +354,8 @@
     90%{left : 850px;top :275px;-moz-transform: scaleX(-1);}
     99%{left:999px;top:299px;-moz-transform:scaleX(-1);}
     100%{left :1000px;top: 300px;-moz-transform: scaleX(1);}
-
+}
+@-ms-keyframes fish2 {
     0%{left:1000px; top:300px;-ms-transform: scaleX(1);}
     20%{left: 500px;top: 300px;-ms-transform: scaleX(1);}
     40%{left: 200px;top: 450px;-ms-transform: scaleX(1);}
