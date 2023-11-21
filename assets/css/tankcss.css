@@ -343,7 +343,7 @@
     99%{left:999px;top:299px;-o-transform:scaleX(-1);}
     100%{left :1000px;top: 300px;-o-transform: scaleX(1);}
 }
-@-moz-keyframes fish1 {
+@-moz-keyframes fish2 {
     0%{left:1000px; top:300px;-moz-transform: scaleX(1);}
     20%{left: 500px;top: 300px;-moz-transform: scaleX(1);}
     40%{left: 200px;top: 450px;-moz-transform: scaleX(1);}
